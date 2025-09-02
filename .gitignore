@@ -1,7 +1,8 @@
 # Ignore raw and processed dataset folders
 MRI/
 BreastHisto/
-processed_data/
+processed_data/BreastHisto/
+processed_data/MRI/
 brain/
 models/
 

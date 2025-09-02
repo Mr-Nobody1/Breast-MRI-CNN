@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "MRI",
+    "BreastHisto"
+  ],
+  "class_to_idx": {
+    "MRI": 0,
+    "BreastHisto": 1
+  },
+  "idx_to_class": {
+    "0": "MRI",
+    "1": "BreastHisto"
+  }
+}

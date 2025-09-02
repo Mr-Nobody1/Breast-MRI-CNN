@@ -1,0 +1,47 @@
+{
+  "model_performance": {
+    "test_accuracy": "1.0000 (100.00%)",
+    "test_precision": "1.0000",
+    "test_recall": "1.0000",
+    "test_f1_score": "1.0000",
+    "test_auc": "1.0000",
+    "test_loss": "0.0001"
+  },
+  "training_summary": {
+    "total_epochs": 16,
+    "best_val_accuracy": "1.0000",
+    "best_val_f1": "1.0000",
+    "best_val_auc": "1.0000",
+    "final_train_accuracy": "0.9992",
+    "final_val_accuracy": "0.9996",
+    "target_achieved": true
+  },
+  "dataset_info": {
+    "classes": [
+      "MRI",
+      "BreastHisto"
+    ],
+    "class_mapping": {
+      "MRI": 0,
+      "BreastHisto": 1
+    },
+    "total_test_samples": 2653
+  },
+  "model_config": {
+    "model_type": "custom",
+    "num_classes": 2,
+    "dropout_rate": 0.5
+  },
+  "training_config": {
+    "num_epochs": 50,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "adam",
+    "scheduler": "step",
+    "step_size": 15,
+    "gamma": 0.1,
+    "patience": 7,
+    "early_stopping_patience": 15,
+    "min_delta": 0.0001
+  }
+}

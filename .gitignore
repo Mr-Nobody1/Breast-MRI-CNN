@@ -1,0 +1,20 @@
+# Ignore raw and processed dataset folders
+MRI/
+BreastHisto/
+processed_data/
+brain/
+models/
+
+# Ignore Python cache and notebook checkpoints
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Allow README and scripts
+!README.md
+!testing.py
+
+# Note: To run this project, you must manually place the MRI and BreastHisto datasets in the correct folders as described in the README.
